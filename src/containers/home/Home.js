@@ -25,7 +25,7 @@ class Home extends Component {
 
     decrementUsers() {
         const { dispatch } = this.props;
-        dispatch(decrementUsersAction);
+        dispatch(decrementUsersAction());
     }
 
     setUsers() {
